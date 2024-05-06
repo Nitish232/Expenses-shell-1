@@ -27,7 +27,7 @@ cd /app
 rm -rf /app/*
 unzip /tmp/backend.zip &>>$LOGFILE
 
-nmp install &>>$LOGFILE
+npm install &>>$LOGFILE
 
 cp /home/ec2-user/expense-shell-1/backend.service /etc/systemd/system/backend.service &>>$LOGFILE
 
